@@ -12,4 +12,3 @@ spec:
   type: website
   lifecycle: experimental
   owner: ${{values.owner | dump}}
-  software: ${{values.softw | dump}}   
