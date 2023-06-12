@@ -44,19 +44,7 @@ spec:
           ui:options:
             allowedHosts:
               - github.com
-    - title: Choose a software to install
-      required:
-        - repoSoftware
-      properties:
-        repoSoftware:
-          title: Repository software
-          type: string
-          ui:field: repoSoftwarePicker
-          ui:options:
-            allowedHosts:
-              - jenkins
-              - python
-              - ....               
+           
   steps:
     - id: template
       name: Fetch Skeleton + Template
